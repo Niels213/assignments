@@ -7,3 +7,4 @@
 [Final assignment](https://github.com/Niels213/assignments/blob/master/exam_june_7_2018(2).ipynb)
 [Final assignment 2](https://github.com/Niels213/assignments/blob/master/Exam%20Niels%20bartholomeus%20%26%20Rick%20Huijbrets.ipynb)
 [Final assignment9-21-2018](https://github.com/Niels213/assignments/blob/master/exam_Sep_21_2018%20(1).ipynb)
+[Final assignment 2 9-21-2018](https://github.com/Niels213/assignments/blob/master/exam_2_student.ipynb)

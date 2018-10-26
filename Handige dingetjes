@@ -35,3 +35,18 @@ plt.xlabel('x')
 plt.scatter(y,z) 
 plt.xlabel('y')
 plt.ylabel('z')
+
+Python ding
+plt.hist(vector_utilities, weights=np.zeros_like(vector_utilities) + 1. / vector_utilities.size) 
+plt.xlabel = ('utility')  
+plt.ylabel = ('frequency')
+plt.title = ('histogram of vector')  
+plt.show
+
+R ding
+ggplot (advertising, aes(x = TV, y = sales)) + 
+        geom_point() +
+        geom_smooth(color = 'green', method = 'lm') + 
+        xlab("TV") +
+        ylab("Sales") +
+        theme_light()

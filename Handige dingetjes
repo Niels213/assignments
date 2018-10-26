@@ -1,6 +1,10 @@
 Medicaid = read.csv2(file = "Medicaid.csv")  
 head(Medicaid
 str(Medicaid)
+
+Medicaid$Recipients = as.numeric(as.integer(Medicaid$Recipients)) 
+
+
 Medicaid_new <- Medicaid %>%
 mutate(Cost_per_Recipient = (Total_costs/Recipients))
 

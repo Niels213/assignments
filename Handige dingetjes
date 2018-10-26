@@ -1,0 +1,37 @@
+Medicaid = read.csv2(file = "Medicaid.csv")  
+head(Medicaid
+str(Medicaid)
+Medicaid_new <- Medicaid %>%
+mutate(Cost_per_Recipient = (Total_costs/Recipients))
+
+head(Medicaid_new)
+
+ggplot(Medicaid_new, aes(x = Year, y = Cost_per_Recipient)) + geom_line(size = 3, color = 'red') +  ylab('Cost per enrollee')
+
+PYTHON
+n_observations = 100
+x = np.random.uniform(0,2,size=n_observations)
+df = pd.DataFrame({'x': x})
+n_observations = 100, sothat that means there are 100 observations.
+x = np.random.uniform(0,2,size=n_observations) so this means x is random uniformelly between 0 and 2(excluding 2)
+there are 100 observations of this. df = pd.DataFrame({'x': x}, here you create a dataframe with one column, a column named 'x', 
+which you created above.
+
+y = 3*x+5 
+z = (x-1) ** 2
+df['y'] = y
+df['z'] = z
+df.head()
+
+print(np.mean(x))
+print(np.mean(y))
+
+print(np.std(x))
+print(np.std(y))
+
+plt.hist(x)
+plt.xlabel('x')
+
+plt.scatter(y,z) 
+plt.xlabel('y')
+plt.ylabel('z')
